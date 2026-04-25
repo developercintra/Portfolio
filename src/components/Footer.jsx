@@ -18,7 +18,7 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-bold text-lg mb-4">{fullName}</h3>
             <p className="text-[14px] text-gray-400 leading-relaxed pr-8">
-              Engenheiro de Software focado em otimização de processos escaláveis e entrega de valor.
+              Desenvolvedor Full Stack apaixonado por construir produtos reais.
             </p>
           </div>
 

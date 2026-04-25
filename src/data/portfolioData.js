@@ -11,7 +11,7 @@ export const portfolioData = {
     status: "Disponível para mudança",
     github: "https://github.com/developercintra",
     linkedin: "https://www.linkedin.com/in/gabriel-cintra-developer/",
-    descriptionHero: "Desenvolvedor Full Stack com experiência prática no desenvolvimento e manutenção de sistemas web de alto tráfego, integração com APIs de pagamento e estruturação de arquiteturas backend. Domínio em Node.js, React e Docker, além de experiência em deploy e gerenciamento de aplicações em servidores VPS Linux via SSH. Foco em evolução contínua, aprimoramento técnico e geração de impacto real."
+    descriptionHero: "Construo aplicações web do zero até o deploy em produção. 8 meses de experiência real com Node.js, React, Docker e VPS Linux — incluindo sistemas de alto tráfego e integração com APIs de pagamento."
   },
   formacao: [
     {
@@ -44,19 +44,19 @@ export const portfolioData = {
     }
   ],
   sobre: {
-    description1: "Sou um desenvolvedor apaixonado por gerar impacto real por onde passo. Como Desenvolvedor Full Stack, vivenciei diversos desafios na área de tecnologia, desde sistemas de alto tráfego até integrações complexas com APIs de pagamento.",
-    description2: "Atuo com sistemas web utilizando Node.js, React, Docker e ambientes Linux, com experiência em deploy e gerenciamento de aplicações em servidores VPS via SSH. Essa vivência me proporcionou uma visão completa do ciclo de vida das aplicações.",
-    description3: "Busco oportunidades para conectar áreas, reduzir fricções e estruturar processos eficientes. Vejo na engenharia de software a oportunidade ideal de unir estratégia, código e colaboração para entregar soluções consistentes e escaláveis."
+    description1: "Sou desenvolvedor Full Stack com experiência real em produção — não só em projetos pessoais. Já trabalhei com sistemas de alto tráfego, integrei APIs de pagamento, autenticação e webhooks, e faço deploy em servidores VPS Linux via SSH.",
+    description2: "Uso Node.js, React e Docker no dia a dia, e estudo Ciências da Computação na Cruzeiro do Sul para solidificar a base teórica por trás do que já pratico.",
+    description3: "Estou buscando uma equipe onde possa crescer tecnicamente e contribuir de verdade — não só executar tarefas."
   },
   experiencia: [
     {
       id: 1,
       role: "Desenvolvedor Full Stack",
       period: "08 meses",
-      company: "Empresa Atual",
+      company: "Empresa de tecnologia · São Paulo, SP",
       location: "São Paulo, SP",
       description: "Desenvolvimento e manutenção de aplicações web de alto tráfego. Integração de APIs REST, incluindo pagamentos, autenticação e webhooks. Criação de novas funcionalidades, correção de bugs e refatorações de código. Conteinerização de aplicações com Docker e deploy em VPS Linux via SSH. Atuação seguindo metodologias ágeis (Scrum e Kanban).",
-      tags: ["Node.js", "React", "Docker", "APIs REST", "Linux", "MySQL"]
+      tags: ["Node.js", "React", "Docker", "APIs REST", "PHP/Laravel", "MySQL"]
     }
   ],
   habilidades: [
