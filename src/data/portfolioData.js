@@ -4,87 +4,91 @@ export const portfolioData = {
   personal: {
     nameHeader: "Gabriel Cintra",
     fullName: "Gabriel Cintra Campos Antonio",
-    role: "Desenvolvedor FullStack | DevOps",
+    role: "Desenvolvedor Full Stack | Junior",
     email: "gabrielcintracantonio@gmail.com",
     phone: "+55 (11) 97859-8513",
     location: "São Paulo, SP, Brasil",
     status: "Disponível para mudança",
     github: "https://github.com/developercintra",
     linkedin: "https://www.linkedin.com/in/gabriel-cintra-developer/",
-    descriptionHero: "Desenvolvedor com forte motivação para gerar impacto real. Possuo experiência na construção de aplicações escaláveis, gestão de infraestrutura em nuvem e modelagem de arquiteturas de software, com foco em integrar áreas e estruturar processos eficientes que impulsionem o crescimento sustentável da organização. Além disso, tenho interesse em áreas complementares ao desenvolvimento, como melhoria contínua, inovação e arquitetura de soluções."
+    descriptionHero: "Desenvolvedor Full Stack com experiência prática no desenvolvimento e manutenção de sistemas web de alto tráfego, integração com APIs de pagamento e estruturação de arquiteturas backend. Domínio em Node.js, React e Docker, além de experiência em deploy e gerenciamento de aplicações em servidores VPS Linux via SSH. Foco em evolução contínua, aprimoramento técnico e geração de impacto real."
   },
   formacao: [
     {
       id: 1,
-      tag: "GRADUAÇÃO ACADÊMICA",
+      tag: "GRADUAÇÃO",
       logo: imgCruzeiro,
-      title: "Bacharel em Ciência da Computação",
+      title: "Ciências da Computação",
       institution: "Universidade Cruzeiro do Sul",
       period: "Fev. 2025 - Dez. 2029",
-      focus: "Formação em andamento 2 periodo",
-      description: "Formação em computação com foco em desenvolvimento de software e arquitetura de sistemas."
+      focus: "Bacharelado | Noturno | Cursando",
+      description: "Formação em computação com foco em desenvolvimento de software, arquitetura de sistemas e fundamentos de ciência da computação."
     },
     {
       id: 2,
-      tag: "PROGRAMA DE ESTUDOS",
-      title: "Certificação Cloud Architecture",
-      institution: "AWS Academy",
-      period: "Fev. 2023 - Jan. 2024",
-      focus: "Foco: Cloud Computing e DevOps",
-      description: "Programa focado em design de soluções em nuvem de alta disponibilidade, segurança e otimização de custos."
+      tag: "TÉCNICO",
+      title: "Desenvolvimento Web",
+      institution: "Senac São Miguel",
+      period: "2024 - 2025",
+      focus: "Curso Técnico",
+      description: "Formação técnica em desenvolvimento web com foco em tecnologias front-end e back-end para construção de aplicações modernas."
     },
     {
       id: 3,
-      tag: "ENSINO MÉDIO TÉCNICO",
-      title: "Técnico em Informática",
-      institution: "Escola Técnica",
-      period: "Fev. 2013 - Dez. 2016",
-      focus: "Formação técnica de base.",
-      description: "Formação técnica em informática com aplicações práticas no desenvolvimento de sistemas desktop e redes de computadores."
+      tag: "CERTIFICAÇÃO",
+      title: "Programação Python",
+      institution: "SENAI Guarulhos",
+      period: "2024",
+      focus: "Curso de Qualificação",
+      description: "Capacitação em programação Python com aplicações práticas em automação e desenvolvimento de scripts."
     }
   ],
   sobre: {
-    description1: "Sou um desenvolvedor apaixonado por gerar impacto real por onde passo. Como Engenheiro de Software e DevOps, vivenciei diversos desafios na área de tecnologia, experiência que ampliou minha visão analítica, minha capacidade de atuar em ambientes complexos e minha adaptação rápida a novas stacks.",
-    description2: "Atuo com sistemas web e arquitetura em nuvem no setor de tecnologia e construí uma trajetória sólida na otimização de fluxos automatizados, atuando também na aproximação entre áreas de operações e desenvolvimento. Essa vivência integrada me proporcionou uma visão holística dos processos e do ciclo de vida dos produtos, além de reforçar minha busca constante por performance e valor percebido.",
-    description3: "Busco a oportunidade para conectar áreas, reduzir fricções e estruturar processos eficientes que impulsionem a escalabilidade da empresa. Vejo na área de engenharia a oportunidade ideal de unir estratégia, dados e colaboração para entregar experiências consistentes e gerar resultados escaláveis.",
-    cards: [
-      { id: 1, title: "Multicultural", desc: "Vivência e trabalho com equipes globais, ampliando minha visão e capacidade de adaptação" },
-      { id: 2, title: "Inovação", desc: "Desenvolvedor desde cedo, sempre buscando soluções criativas, modernas e escaláveis" },
-      { id: 3, title: "Impacto", desc: "Foco em gerar impacto real e valor percebido em cada projeto entregue para os usuários" },
-      { id: 4, title: "Visão Holística", desc: "Compreensão completa do ciclo de desenvolvimento, infraestrutura até ciclo de negócios" }
-    ]
+    description1: "Sou um desenvolvedor apaixonado por gerar impacto real por onde passo. Como Desenvolvedor Full Stack, vivenciei diversos desafios na área de tecnologia, desde sistemas de alto tráfego até integrações complexas com APIs de pagamento.",
+    description2: "Atuo com sistemas web utilizando Node.js, React, Docker e ambientes Linux, com experiência em deploy e gerenciamento de aplicações em servidores VPS via SSH. Essa vivência me proporcionou uma visão completa do ciclo de vida das aplicações.",
+    description3: "Busco oportunidades para conectar áreas, reduzir fricções e estruturar processos eficientes. Vejo na engenharia de software a oportunidade ideal de unir estratégia, código e colaboração para entregar soluções consistentes e escaláveis."
   },
   experiencia: [
     {
       id: 1,
-      role: "Desenvolvedor FullStack & DevOps",
-      period: "Agosto de 2025 - Abril de 2026",
-      company: "Sua Empresa Principal",
+      role: "Desenvolvedor Full Stack",
+      period: "08 meses",
+      company: "Empresa Atual",
       location: "São Paulo, SP",
-      description: "Responsável por desenvolver aplicações escaláveis utilizando as melhores práticas do mercado de tech atual. Atuação central no desenvolvimento end-to-end de soluções web e integração com arquiteturas cloud, criando pipelines automatizados de CI/CD para melhorar o ciclo de entrega de valor e eficiência nas operações da empresa. Alinhamento direto com diversas áreas de negócio para mapear processos e convertê-los em código.",
-      tags: ["Node.js", "React", "Docker", "CI/CD", "Arquitetura"]
+      description: "Desenvolvimento e manutenção de aplicações web de alto tráfego. Integração de APIs REST, incluindo pagamentos, autenticação e webhooks. Criação de novas funcionalidades, correção de bugs e refatorações de código. Conteinerização de aplicações com Docker e deploy em VPS Linux via SSH. Atuação seguindo metodologias ágeis (Scrum e Kanban).",
+      tags: ["Node.js", "React", "Docker", "APIs REST", "Linux", "MySQL"]
     }
   ],
   habilidades: [
     {
-      title: "Soft Skills",
-      colorClass: "text-[#22c55e] border-[#22c55e] bg-[#22c55e]/10 hover:bg-[#22c55e]/20",
-      items: ["Comunicação", "Resolução de Problemas", "Adaptação", "Gestão de Tempo", "Trabalho em Equipe", "Pensamento Sistêmico", "Aprendizado Rápido", "Liderança"]
+      title: "Frontend",
+      colorClass: "text-[#6366f1] border-[#6366f1] bg-[#6366f1]/10 hover:bg-[#6366f1]/20",
+      items: ["React", "Vue", "HTML5", "CSS3", "JavaScript"]
     },
     {
-      title: "Habilidades Técnicas",
+      title: "Backend",
+      colorClass: "text-[#10b981] border-[#10b981] bg-[#10b981]/10 hover:bg-[#10b981]/20",
+      items: ["Node.js", "Laravel", "APIs REST", "Express"]
+    },
+    {
+      title: "Banco de Dados",
       colorClass: "text-[#f59e0b] border-[#f59e0b] bg-[#f59e0b]/10 hover:bg-[#f59e0b]/20",
-      items: ["React / Next.js", "Node.js / Python", "Docker / CI/CD", "PostgreSQL / MongoDB", "Arquitetura de Software", "Linux / Bash", "React", "API REST", "Node.js"]
+      items: ["MySQL", "SQL", "MongoDB"]
+    },
+    {
+      title: "DevOps & Ferramentas",
+      colorClass: "text-[#ec4899] border-[#ec4899] bg-[#ec4899]/10 hover:bg-[#ec4899]/20",
+      items: ["Docker", "VPS", "Linux", "SSH", "Git", "Postman", "Insomnia"]
+    },
+    {
+      title: "Metodologias",
+      colorClass: "text-[#a855f7] border-[#a855f7] bg-[#a855f7]/10 hover:bg-[#a855f7]/20",
+      items: ["Scrum", "Kanban", "Clean Code"]
     },
     {
       title: "Idiomas",
-      colorClass: "text-[#a855f7] border-[#a855f7] bg-[#a855f7]/10 hover:bg-[#a855f7]/20",
-      items: ["Português (Nativo)", "Inglês (Básico)", "Espanhol (Intermediário)"]
-    },
-    {
-      title: "Conhecimentos",
-      colorClass: "text-[#3b82f6] border-[#3b82f6] bg-[#3b82f6]/10 hover:bg-[#3b82f6]/20",
-      items: ["Scrum", "Kanban", "Clean Code", "Versionamento (Git)"]
+      colorClass: "text-[#06b6d4] border-[#06b6d4] bg-[#06b6d4]/10 hover:bg-[#06b6d4]/20",
+      items: ["Português (Nativo)", "Espanhol (Avançado)"]
     }
   ],
 };
