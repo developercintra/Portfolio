@@ -1,16 +1,64 @@
-# React + Vite
+# 💼 Portfólio — Gabriel Cintra
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio profissional desenvolvido com **React**, **Vite** e **Tailwind CSS v4**, com deploy via **Docker + Nginx**.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React 19** — Componentização e UI
+- **Vite** — Build e dev server
+- **Tailwind CSS v4** — Estilização utilitária
+- **Docker** — Containerização
+- **Nginx** — Servidor web de produção
 
-## React Compiler
+## 📁 Estrutura
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```
+src/
+├── assets/             # Imagens e mídia
+├── components/         # Componentes React
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Formacao.jsx
+│   ├── Sobre.jsx
+│   ├── Experiencia.jsx
+│   ├── Habilidades.jsx
+│   └── Footer.jsx
+├── data/
+│   └── portfolioData.js  # Dados centralizados
+├── App.jsx
+├── index.css
+└── main.jsx
+```
 
-## Expanding the ESLint configuration
+## ⚡ Rodando Localmente
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+Acesse: `http://localhost:5173`
+
+## 🐳 Rodando com Docker
+
+```bash
+docker compose up -d --build
+```
+
+Acesse: `http://localhost:3000`
+
+Para parar:
+
+```bash
+docker compose down
+```
+
+## 🌗 Dark Mode
+
+O toggle de tema (claro/escuro) está no navbar. Utiliza class-based dark mode via `@custom-variant` do Tailwind CSS v4.
+
+## 📬 Contato
+
+- **Email:** gabrielcintracantonio@gmail.com
+- **LinkedIn:** [gabriel-cintra-developer](https://www.linkedin.com/in/gabriel-cintra-developer/)
+- **GitHub:** [developercintra](https://github.com/developercintra)

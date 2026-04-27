@@ -1,4 +1,6 @@
 import imgCruzeiro from '../assets/universidadecruzeirodosul_logo.jpg';
+import imgSenac from '../assets/logo_senac_default.png';
+import imgSenai from '../assets/senaiLogo.svg';
 
 export const portfolioData = {
   personal: {
@@ -27,6 +29,7 @@ export const portfolioData = {
     {
       id: 2,
       tag: "TÉCNICO",
+      logo: imgSenac,
       title: "Desenvolvimento Web",
       institution: "Senac São Miguel",
       period: "2024 - 2025",
@@ -36,6 +39,7 @@ export const portfolioData = {
     {
       id: 3,
       tag: "CERTIFICAÇÃO",
+      logo: imgSenai,
       title: "Programação Python",
       institution: "SENAI Guarulhos",
       period: "2024",
